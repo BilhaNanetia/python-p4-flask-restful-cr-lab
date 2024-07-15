@@ -12,4 +12,4 @@ class Plant(db.Model, SerializerMixin):
     price = db.Column(db.Float)
 
     def __repr__(self):
-        return f'<Plant {self.name}, Price: {self.price}>'
+        return f'<Plant {self.name} | Price {self.price}>'
